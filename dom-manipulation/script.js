@@ -21,7 +21,7 @@ function showRandomQuote() {
 document.getElementById("newQuote").addEventListener("click", showRandomQuote);
 
 // Function to add a new quote
-function addQuote() {
+function creatAddQuote() {
     let quoteText = document.getElementById("newQuoteText").value.trim();
     let quoteCategory = document.getElementById("newQuoteCategory").value.trim();
     let message = document.getElementById("message");
